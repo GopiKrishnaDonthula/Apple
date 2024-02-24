@@ -1,0 +1,466 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 46px;
+    /* background-color:#161617cc; */
+    background-color: #000000;
+    position: fixed;
+    z-index: 11111;
+    opacity: 0.8;
+    
+}
+nav ol{
+    /* border: 2px solid green; */
+    display: flex;
+    list-style: none;
+    width: 73%;
+    margin-left: 183px;
+    height: 44px;
+    color: rgba(255, 255, 255, .8);
+    fill: rgba(255, 255, 255, .8);
+    font-size: 12px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    justify-content: space-between;
+    align-items: center;
+}
+main #main1{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 7%;
+    width: 100%;
+    height: 46px;
+    z-index: 1;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, .8);
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #1d1d1f;
+    font-size: 14px;
+    /* color: #ffffff; */
+}
+main #main1 p a{
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 14px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+main #main2{
+    /* border: 2px solid red; */
+    position: absolute;
+    padding: 30px;
+    width: 100%;
+    height: 105%;
+    background-image: url(./assets/phone\ 1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+main #main2 #sub-main21{
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 20.5%;
+    left: 34.5%;
+    height: 22%;
+    color: #ffffff;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+
+}
+main #main2 #sub-main21 p{
+    font-size: 28px;
+}
+main #main2 #sub-main21 a{
+    font-size: 21px;
+    text-decoration: none;
+    color: #0066cc;
+}
+#main3{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 107%;
+    height: 94%;
+    width: 100%;
+    background-image: url(./assets/phone\ 2.jpg);
+    background-position: center center;
+}
+main #main3 #sub-main31{
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    height: 22%;
+    color: #1d1d1f;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+
+}
+main #main3 #sub-main31 p{
+    font-size: 28px;
+}
+main #main3 #sub-main31 a{
+    font-size: 21px;
+    text-decoration: none;
+    color: #0066cc;
+}
+#main4{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 203%;
+    height: 94%;
+    width: 100%;
+    background-image: url(./assets/phone\ 3.jpg);
+    background-position: center center;
+}
+main #main4 #sub-main41{
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 65%;
+    background-position: center center;
+    left: 36%;
+    height: 22%;
+    color: #1d1d1f;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+
+}
+main #main4 #sub-main41 p{
+    font-size: 28px;
+}
+main #main4 #sub-main41 a{
+    font-size: 21px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+#main5{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 299%;
+    height: 91%;
+    width: 49%;
+    margin: 10px;
+    background-image: url(./assets/side\ 1.jpg);
+    background-position: center center;
+}
+main #main5 #sub-main51{
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 8.5%;
+    background-position: center center;
+    left: 34%;
+    height: 22%;
+    color: #ffffff;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-size: 27px;
+
+}
+main #main5 #sub-main51 small{
+    font-size: 13px;
+    color: rgb(207, 51, 51);
+}
+main #main5 #sub-main51 p{
+    font-size: 21px;
+}
+main #main5 #sub-main51 a{
+    font-size: 19px;
+    text-decoration: none;
+    color: #0066cc;
+}
+#main6{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 299%;
+    left: 49.5%;
+    height: 91%;
+    width: 49%;
+    margin: 10px;
+    background-image: url(./assets/side\ 2.jpg);
+    background-position: center center;
+}
+main #main6 #sub-main61{
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 8.5%;
+    background-position: center center;
+    left: 34%;
+    height: 22%;
+    color: #1d1d1f;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-size: 27px;
+
+}
+main #main6 #sub-main61 small{
+    font-size: 13px;
+    color: rgb(207, 51, 51);
+}
+main #main6 #sub-main61 p{
+    font-size: 21px;
+}
+main #main6 #sub-main61 a{
+    font-size: 19px;
+    text-decoration: none;
+    color: #0066cc;
+}
+#main7{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 391.5%;
+    height: 91%;
+    width: 49%;
+    margin: 10px;
+    background-image: url(./assets/side\ 3.jpg);
+    background-position: center center;
+}
+main #main7 #sub-main71{
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 8.5%;
+    background-position: center center;
+    left: 34%;
+    height: 22%;
+    color: #1d1d1f;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    line-height: 40px;
+    font-size: 29px;
+
+}
+main #main7 #sub-main71 small{
+    font-size: 13px;
+    color: rgb(207, 51, 51);
+}
+main #main7 #sub-main71 p{
+    font-size: 21px;
+}
+main #main7 #sub-main71 a{
+    font-size: 19px;
+    text-decoration: none;
+    color: #0066cc;
+}
+#main8{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 391.5%;
+    left: 49.5%;
+    height: 91%;
+    width: 49%;
+    margin: 10px;
+    background-image: url(./assets/side\ 4.jpg);
+    background-position: center center;
+}
+main #main8 #sub-main81{
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 8.5%;
+    background-position: center center;
+    left: 34%;
+    height: 22%;
+    color: #1d1d1f;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    line-height: 40px;
+    font-size: 29px;
+
+}
+main #main8 #sub-main81 small{
+    font-size: 13px;
+    color: rgb(207, 51, 51);
+}
+main #main8 #sub-main81 p{
+    font-size: 21px;
+}
+main #main8 #sub-main81 a{
+    font-size: 19px;
+    text-decoration: none;
+    color: #0066cc;
+}
+#main9{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 484%;
+    height: 91%;
+    width: 49%;
+    margin: 10px;
+    background-image: url(./assets/side\ 5.jpg);
+    background-position: center center;
+}
+main #main9 #sub-main91{
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 8.5%;
+    background-position: center center;
+    left: 34%;
+    height: 22%;
+    color: #ffffff;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    line-height: 40px;
+    font-size: 29px;
+
+}
+main #main9 #sub-main91 small{
+    font-size: 13px;
+    color: rgb(207, 51, 51);
+}
+main #main9 #sub-main91 p{
+    font-size: 21px;
+}
+main #main9 #sub-main91 a{
+    font-size: 19px;
+    text-decoration: none;
+    color: #0066cc;
+}
+#main10{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 484%;
+    left: 49.5%;
+    height: 91%;
+    width: 49%;
+    margin: 10px;
+    background-image: url(./assets/side\ 6.jpg);
+    background-position: center center;
+}
+main #main10 #sub-main101{
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 8.5%;
+    background-position: center center;
+    left: 34%;
+    height: 22%;
+    color: #1d1d1f;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    line-height: 40px;
+    font-size: 29px;
+
+}
+main #main10 #sub-main101 p{
+    font-size: 21px;
+}
+main #main10 #sub-main101 a{
+    font-size: 19px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+
+#carousel1{
+    /* border: 2px solid blue; */
+    position: absolute;
+    top: 580%;
+    width: 100%;
+    height: 600px;
+}
+.carousel-item{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 595px;
+
+}
+#foot{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 680%;
+    height: 830px;
+    width: 100%;
+    background-color: #f5f5f7;
+}
+#foot1{
+    /* border: 2px solid green; */
+    width: 75%;
+    margin-left: 160px;
+    font-size: 12.5px;
+    line-height: 16px;
+    margin-top: 25px;
+    color: #0000008f;
+}
+
+#list1{
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-left: 180px;
+    list-style: none;
+    font-size: 12.5px;
+    line-height: 24px;
+    margin-top: 5px;
+    color: #0000008f;
+}
+
+#list2{
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-left: 375px;
+    list-style: none;
+    font-size: 12.5px;
+    line-height: 24px;
+    margin-top: 5px;
+    color: #0000008f;
+}
+#list3{
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-left: 570px;
+    list-style: none;
+    font-size: 12.5px;
+    line-height: 24px;
+    margin-top: 5px;
+    color: #0000008f;
+}
+#list4{
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-left: 770px;
+    list-style: none;
+    font-size: 12.5px;
+    line-height: 24px;
+    margin-top: 5px;
+    color: #0000008f;
+}
+#list5{
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-left: 970px;
+    list-style: none;
+    font-size: 12.5px;
+    line-height: 24px;
+    margin-top: 5px;
+    color: #0000008f;
+}
+#para1{
+    /* border: 2px solid; */
+    position: absolute;
+    color: #0000008f;
+    font-size: 12.5px;
+    position: absolute;
+    top: 89%;
+    left: 13.5%;
+    width: 73%;
+}
+#para2{
+    /* border: 2px solid; */
+    position: absolute;
+    color: #0000008f;
+    font-size: 12.5px;
+    position: absolute;
+    top: 95%;
+    left: 13.5%;
+    width: 73%;
+}
